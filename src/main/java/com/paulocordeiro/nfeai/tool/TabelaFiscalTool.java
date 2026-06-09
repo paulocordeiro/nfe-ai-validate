@@ -10,12 +10,10 @@ import java.util.Optional;
 
 /**
  * Tool exposta ao LLM via function calling.
- *
  * O ponto importante: o modelo NÃO "sabe" a tabela NCM da sua empresa. Quando ele
  * precisa validar um NCM, ele PEDE para a aplicação consultar — e a aplicação responde
  * com o dado real. É assim que a IA fica ancorada nos dados do sistema, em vez de
  * alucinar uma resposta.
- *
  * Num ERP real, este método consultaria o banco / cadastro fiscal em vez de um Map.
  */
 @Service

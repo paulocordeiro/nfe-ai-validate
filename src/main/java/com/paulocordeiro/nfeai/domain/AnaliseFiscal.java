@@ -7,11 +7,9 @@ import java.util.List;
 
 /**
  * Saída ESTRUTURADA da análise da IA.
- *
  * Esse é o ponto central do exemplo: o LLM não devolve texto livre, devolve um objeto
  * tipado. O Spring AI gera o JSON Schema a partir deste record e mapeia a resposta
  * de volta para Java via entity(AnaliseFiscal.class).
- *
  * As anotações @JsonPropertyDescription viram parte do schema e orientam o modelo
  * sobre o que preencher em cada campo.
  */
