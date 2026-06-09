@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: nfe-ai-poc
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
+          temperature: 0.0   # determinístico: análise fiscal não é tarefa criativa
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.sobreisso.nfeai: INFO

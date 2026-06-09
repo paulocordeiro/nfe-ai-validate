@@ -1,0 +1,43 @@
+{
+  "numero": "000123",
+  "serie": "1",
+  "dataEmissao": "2025-05-20",
+  "naturezaOperacao": "Venda de mercadoria",
+  "emitente": {
+    "cnpj": "11222333000181",
+    "razaoSocial": "Loja Exemplo LTDA",
+    "inscricaoEstadual": "123456789",
+    "uf": "BA",
+    "regimeTributario": "Regime Normal"
+  },
+  "destinatario": {
+    "cnpjCpf": "99888777000166",
+    "nome": "Cliente Final SA",
+    "inscricaoEstadual": "987654321",
+    "uf": "BA",
+    "indicadorInscricaoEstadual": "CONTRIBUINTE"
+  },
+  "itens": [
+    {
+      "codigoProduto": "NB-14",
+      "produtoNome": "Notebook 14 polegadas",
+      "ncm": "99999999",
+      "cfop": "5102",
+      "unidadeComercial": "UN",
+      "quantidade": 1,
+      "precoUnitario": 3500.00,
+      "precoTotal": 3500.00,
+      "icms": {
+        "cstCsosn": "00",
+        "baseCalculo": 3500.00,
+        "aliquota": 17.5,
+        "valor": 612.50
+      }
+    }
+  ],
+  "totais": {
+    "valorProdutos": 3500.00,
+    "valorIcms": 612.50,
+    "valorTotalNota": 3500.00
+  }
+}
